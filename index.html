@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: rgb(197, 241, 249);
+        }
+
+        #outer{
+            width: 300px;
+            height: 500px;
+            border: solid white;
+            background-color: white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            border-radius: 20px;
+        }
+
+
+        #firstInner{
+            height: 270px;
+            width: 270px;
+            background-color: rgb(0, 157, 255);
+            border: solid rgb(0, 157, 255);
+            position: absolute;
+            top: 12px;
+            left: 13px;
+            border-radius: 20px;
+        }
+
+        #text{
+            height: 50px;
+            width: 270px;
+            font-size: 10px;
+            font-family: Arial;
+            position: absolute;
+            top: 290px;
+            left: 27px;
+        }
+
+        #text2{
+            height: 50px;
+            width: 270px;
+            position: absolute;
+            top: 355px;
+            left: 45px;
+        }
+
+        p{
+            color: grey;
+            font-family: Arial;
+            font-size: 13px;
+        }
+
+        #qrdiv1{
+            height: 30px;
+            width: 30px;
+            border: 7px solid white;
+            position: absolute;
+            top: 40px;
+            left: 30px;
+        }
+
+        #qrdiv2{
+            height: 30px;
+            width: 30px;
+            border: 7px solid white;
+            position: absolute;
+            top: 40px;
+            left: 195px;
+        }
+
+        #qrdiv3{
+            height: 30px;
+            width: 30px;
+            border: 7px solid white;
+            position: absolute;
+            top: 195px;
+            left: 30px;
+        }
+
+        #smaller1, #smaller2,#smaller3{
+            border: 1px solid white;
+            background-color: white;
+            height: 5px;
+            width: 5px;
+            padding: 5px;
+            position: absolute;
+            top: 7px;
+            left: 7px;
+        }
+   
+    </style>
+</head>
+<body>
+    <div id="outer">
+        <div id="firstInner">
+            <div>
+                <div id="qrdiv1"><div id="smaller1"></div></div>
+                <div id="qrdiv2"><div id="smaller2"></div></div>
+                <div id="qrdiv3"><div id="smaller3"></div></div>
+            </div>
+        </div>
+        <div id="text">
+            <h1>&nbsp; Improve your front-end<br>skills by building projects
+            </h1>
+        </div>
+        <div id="text2">
+            <p>&nbsp;Scan the QR code to visit Frontend<br>Mentor and take your coding skills to<br>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the next level</p>
+        </div>
+    </div>
+</body>
+</html>
